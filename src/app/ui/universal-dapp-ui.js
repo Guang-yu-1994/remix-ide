@@ -145,7 +145,7 @@ UniversalDAppUI.prototype.renderInstanceFromABI = function (contractABI, address
         <div class="d-flex justify-content-end m-2 align-items-center">
           <label class="mr-2 m-0">Calldata</label>
           ${calldataInput}
-          <button id="deployAndRunLLTxSendTransaction" class="btn btn-sm btn-secondary" title="Send data to contract." onclick=${() => sendData()}>Transact</button>
+          <button id="deployAndRunLLTxSendTransaction" data-id="pluginManagerSettingsDeployAndRunLLTxSendTransaction" class="btn btn-sm btn-secondary" title="Send data to contract." onclick=${() => sendData()}>Transact</button>
         </div>
       </div>
       <div>
